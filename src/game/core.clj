@@ -32,3 +32,8 @@
       (recur (Display/isCloseRequested))))
 
   (Display/destroy))
+
+(comment
+
+  ;; Can start the thing by executing the following form
+  (future (start)))
